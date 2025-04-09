@@ -22,8 +22,7 @@
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
 
-Your team has been hired as data science consultants for a news outlet to create classification models using Python and deploy it as a web application with Streamlit. 
-The aim is to provide you with a hands-on demonstration of applying machine learning techniques to natural language processing tasks.  This end-to-end project encompasses the entire workflow, including data loading, preprocessing, model training, evaluation, and final deployment. The primary stakeholders for the news classification project for the news outlet could include the editorial team, IT/tech support, management, readers, etc. These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
+Having been hired for a news outlet to create a set of classification models, to aid the stakeholders of the project in the editorial team. i.e: (IT/tech support, management, readers) These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
 
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
@@ -135,15 +134,9 @@ Congratulations! You've now officially deployed your first web application!
 
 ## 7. Team Members<a class="anchor" id="team-members"></a>
 
-| Name                                                                                        |  Email              
-|---------------------------------------------------------------------------------------------|--------------------             
-| [Jana Liebenberg-Fouche](https://github.com/Jana-Liebenberg)                                | jliebenberg-fouche@sandtech.com
-| [Edmund Dotsey](https://github.com/Edotsey)                                                 | edotsey@sandtech.com
-| [Farayi Myambo](https://github.com/Farayi-Explore)                                          | fmyambo@sandtech.com
-
-
-
-#### Additional Resources to create a README file:
-- [Make a README](https://www.makeareadme.com/)
-- [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+| Name                                                     |  Email              
+|----------------------------------------------------------|--------------------             
+| [Neo Moumakoa](https://#)                                | nmoumakoa@gmail.com
+| [Lisa Kwanini](https://#)                                | kwaninilisa22@gmail.com
+| [Kelly Ncube](https://#)                                 | kellynthando@gmail.com
+| [Mfundo Sindane](https://#)                                 | mfundosinadne0@gmail.com
