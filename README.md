@@ -135,15 +135,13 @@ Congratulations! You've now officially deployed your first web application!
 
 ## 7. Team Members<a class="anchor" id="team-members"></a>
 
-| Name                                                                                        |  Email              
-|---------------------------------------------------------------------------------------------|--------------------             
-| [Jana Liebenberg-Fouche](https://github.com/Jana-Liebenberg)                                | jliebenberg-fouche@sandtech.com
-| [Edmund Dotsey](https://github.com/Edotsey)                                                 | edotsey@sandtech.com
-| [Farayi Myambo](https://github.com/Farayi-Explore)                                          | fmyambo@sandtech.com
+| Name                                                     |  Email              
+|----------------------------------------------------------|--------------------             
+| [Neo Moumakoa](https://#)                                | nmoumakoa@gmail.com
+| [Lisa Kwanini](https://#)                                | kwaninilisa22@gmail.com
+| [Kelly Ncube](https://#)                                 | kellynthando@gmail.com
+| [Mfundo Sindane](https://#)                                 | mfundosinadne0@gmail.com
 
 
 
-#### Additional Resources to create a README file:
-- [Make a README](https://www.makeareadme.com/)
-- [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+#### Additional Resources used:
