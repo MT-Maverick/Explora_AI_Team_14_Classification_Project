@@ -1,0 +1,8 @@
+#!/home/mfundosindane0/Explora_AI_Team_14_Classification_Project/news_category_classifier/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from markdown.__main__ import run
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(run())
