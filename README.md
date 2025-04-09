@@ -141,7 +141,3 @@ Congratulations! You've now officially deployed your first web application!
 | [Lisa Kwanini](https://#)                                | kwaninilisa22@gmail.com
 | [Kelly Ncube](https://#)                                 | kellynthando@gmail.com
 | [Mfundo Sindane](https://#)                                 | mfundosinadne0@gmail.com
-
-
-
-#### Additional Resources used:
