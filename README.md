@@ -22,8 +22,7 @@
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
 
-Your team has been hired as data science consultants for a news outlet to create classification models using Python and deploy it as a web application with Streamlit. 
-The aim is to provide you with a hands-on demonstration of applying machine learning techniques to natural language processing tasks.  This end-to-end project encompasses the entire workflow, including data loading, preprocessing, model training, evaluation, and final deployment. The primary stakeholders for the news classification project for the news outlet could include the editorial team, IT/tech support, management, readers, etc. These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
+Having been hired for a news outlet to create a set of classification models, to aid the stakeholders of the project in the editorial team. i.e: (IT/tech support, management, readers) These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
 
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
