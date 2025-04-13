@@ -1,5 +1,3 @@
-##### **Please note**: Download the repository as a zipped folder, create a private repository, and upload the content to it. This way, you can collaborate with your teammates effectively.
-
 ## 2407PTDS_Classification_Project
 
 # Analysing News Articles Dataset
@@ -8,7 +6,7 @@
 ![](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](URL_TO_YOUR_APP)
 
 <div id="main image" align="center">
-  <img src="https://github.com/ereshia/2401FTDS_Classification_Project/blob/main/announcement-article-articles-copy-coverage.jpg" width="550" height="300" alt=""/>
+  <img src="announcement-article-articles-copy-coverage.jpg" width="550" height="300" alt=""/>
 </div>
 
 ## Table of contents
@@ -22,7 +20,7 @@
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
 
-Having been hired for a news outlet to create a set of classification models, to aid the stakeholders of the project in the editorial team. i.e: (IT/tech support, management, readers) These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
+Your team has been hired as data science consultants for a news outlet to create classification models using Python and deploy it as a web application with Streamlit. The aim is to provide you with a hands-on demonstration of applying machine learning techniques to natural language processing tasks. This end-to-end project encompasses the entire workflow, including data loading, preprocessing, model training, evaluation, and final deployment. The primary stakeholders for the news classification project for the news outlet could include the editorial team, IT/tech support, management, readers, etc. These groups are interested in improved content categorization, operational efficiency, and enhanced user experience. 
 
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
@@ -40,8 +38,11 @@ The dataset is comprised of news articles that need to be classified into catego
 ## 3. Packages <a class="anchor" id="packages"></a>
 
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
-+ `Pandas 2.2.2` and `Numpy 1.26`
-+ `Matplotlib 3.8.4`
++ `Pandas 2.2.2`, `Numpy 1.26`
++ `Matplotlib 3.8.4`, `seaborn 0.13.2`
++ `scikit-learn 1.6.1`, `streamlit 1.44.1`
++ `mlflow 2.21.3`, `nltk 3.9.1`
+
  
 
 ## 4. Environment <a class="anchor" id="environment"></a>
