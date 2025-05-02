@@ -20,6 +20,7 @@
 
 	https://docs.streamlit.io/en/latest/
 
+
 """
 # Streamlit dependencies
 import streamlit as st
@@ -29,11 +30,11 @@ import joblib,os
 import pandas as pd
 
 # Vectorizer
-#news_vectorizer = open("streamlit/tfidfvect.pkl","rb")
-#test_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
+news_vectorizer = open("vectorisers/CountVectorizer(min_df=0.01, stop_words='english').pkl","rb")
+test_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
-#raw = pd.read_csv("streamlit/train.csv")
+raw = pd.read_csv("https://raw.githubusercontent.com/Jana-Liebenberg/2401PTDS_Classification_Project/main/Data/processed/train.csv")
 
 # The main function where we will build the actual app
 def main():

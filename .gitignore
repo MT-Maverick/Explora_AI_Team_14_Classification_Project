@@ -1,2 +1,4 @@
 #ignore raw data files and python venv
-news_category_classifier
+.venv
+.models_file
+.vectoriser_file
