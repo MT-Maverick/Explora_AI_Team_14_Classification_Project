@@ -139,5 +139,5 @@ Congratulations! You've now officially deployed your first web application!
 |----------------------------------------------------------|--------------------             
 | [Neo Moumakoa](https://#)                                | nmoumakoa@gmail.com
 | [Lisa Kwanini](https://#)                                | kwaninilisa22@gmail.com
-| [Kelly Ncube](https://#)                                 | kellynthando@gmail.com
+| [Kelly Ncube](https://#)                                 | kellyntando@gmail.com
 | [Mfundo Sindane](https://#)                                 | mfundosinadne0@gmail.com
