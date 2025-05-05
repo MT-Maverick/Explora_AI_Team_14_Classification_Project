@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Desktop/NLP%20Project-cloned/Explora_AI_Team_14_Classification_Project/Streamlit/mlruns/813981363149581026/75114b494eb94019897db9a04fd35abe/artifacts
+end_time: 1746430985788
+entry_point_name: ''
+experiment_id: '813981363149581026'
+lifecycle_stage: active
+run_id: 75114b494eb94019897db9a04fd35abe
+run_name: Random Forest
+run_uuid: 75114b494eb94019897db9a04fd35abe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746430983287
+status: 3
+tags: []
+user_id: kelly

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Desktop/NLP%20Project-cloned/Explora_AI_Team_14_Classification_Project/Streamlit/mlruns/813981363149581026/4db50b0e36da4b558120acc28f9eca15/artifacts
+end_time: 1746436661783
+entry_point_name: ''
+experiment_id: '813981363149581026'
+lifecycle_stage: active
+run_id: 4db50b0e36da4b558120acc28f9eca15
+run_name: Support Vector Classifier
+run_uuid: 4db50b0e36da4b558120acc28f9eca15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746436644324
+status: 3
+tags: []
+user_id: kelly

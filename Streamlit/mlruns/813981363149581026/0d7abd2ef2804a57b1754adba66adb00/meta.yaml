@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Desktop/NLP%20Project-cloned/Explora_AI_Team_14_Classification_Project/Streamlit/mlruns/813981363149581026/0d7abd2ef2804a57b1754adba66adb00/artifacts
+end_time: 1746436637371
+entry_point_name: ''
+experiment_id: '813981363149581026'
+lifecycle_stage: active
+run_id: 0d7abd2ef2804a57b1754adba66adb00
+run_name: Logistic Regression
+run_uuid: 0d7abd2ef2804a57b1754adba66adb00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746436635202
+status: 3
+tags: []
+user_id: kelly

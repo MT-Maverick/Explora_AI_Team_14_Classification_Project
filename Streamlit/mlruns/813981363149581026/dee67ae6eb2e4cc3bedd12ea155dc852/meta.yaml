@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Desktop/NLP%20Project-cloned/Explora_AI_Team_14_Classification_Project/Streamlit/mlruns/813981363149581026/dee67ae6eb2e4cc3bedd12ea155dc852/artifacts
+end_time: 1746430991557
+entry_point_name: ''
+experiment_id: '813981363149581026'
+lifecycle_stage: active
+run_id: dee67ae6eb2e4cc3bedd12ea155dc852
+run_name: Naive Bayes
+run_uuid: dee67ae6eb2e4cc3bedd12ea155dc852
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746430991259
+status: 3
+tags: []
+user_id: kelly

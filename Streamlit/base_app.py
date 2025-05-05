@@ -29,11 +29,17 @@ import joblib,os
 import pandas as pd
 
 # Vectorizer
-#news_vectorizer = open("streamlit/tfidfvect.pkl","rb")
-#test_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
+news_vectorizer = open("vectorizer.pkl","rb")
+test_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
-#raw = pd.read_csv("streamlit/train.csv")
+raw = pd.read_csv("https://raw.githubusercontent.com/Jana-Liebenberg/2401PTDS_Classification_Project/main/Data/processed/train.csv", encoding="utf-8")
+
+# Load your machine learning models
+# Example: Replace 'model1.pkl' and 'model2.pkl' with your actual model file paths
+models = {
+	"Model 1": joblib.load("best_model.pkl")
+}
 
 # The main function where we will build the actual app
 def main():
@@ -53,7 +59,7 @@ def main():
 	if selection == "Information":
 		st.info("General Information")
 		# You can read a markdown file from supporting resources folder
-		st.markdown("Some information here")
+		st.markdown("This app uses machine learning models to classify news articles into predefined categories.")
 
 		
 	# Building out the predication page
@@ -62,18 +68,22 @@ def main():
 		# Creating a text box for user input
 		news_text = st.text_area("Enter Text","Type Here")
 
-		if st.button("Classify"):
+	if st.button("Classify"):
+		if news_text:
 			# Transforming user input with vectorizer
 			vect_text = test_cv.transform([news_text]).toarray()
-			# Load your .pkl file with the model of your choice + make predictions
-			# Try loading in multiple models to give the user a choice
-			predictor = joblib.load(open(os.path.join("streamlit/Logistic_regression.pkl"),"rb"))
-			prediction = predictor.predict(vect_text)
 
-			# When model has successfully run, will print prediction
-			# You can use a dictionary or similar structure to make this output
-			# more human interpretable.
-			st.success("Text Categorized as: {}".format(prediction))
+			# Get predictions from each model
+			predictions = {model_name: model.predict(vect_text)[0] for model_name, model in models.items()}
+
+			# Display predictions
+			st.subheader("Model Predictions:")
+			for model_name, category in predictions.items():
+				st.write(f"**{model_name}:** {category}")
+			# Show success message with categorized text
+			st.success("Text Categorized as: {}".format(", ".join(predictions.values())))
+		else:
+			st.warning("Please enter an article for classification.")
 
 # Required to let Streamlit instantiate our web app.  
 if __name__ == '__main__':
