@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/a3ca3ecb0d3f44c585b67e645083782d/artifacts
+end_time: 1746638940684
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: active
+run_id: a3ca3ecb0d3f44c585b67e645083782d
+run_name: unique-carp-594
+run_uuid: a3ca3ecb0d3f44c585b67e645083782d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746638921167
+status: 3
+tags: []
+user_id: kelly

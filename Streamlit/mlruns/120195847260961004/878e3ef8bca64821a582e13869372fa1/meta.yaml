@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/878e3ef8bca64821a582e13869372fa1/artifacts
+end_time: 1746638920331
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: active
+run_id: 878e3ef8bca64821a582e13869372fa1
+run_name: Naive Bayes
+run_uuid: 878e3ef8bca64821a582e13869372fa1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746638919740
+status: 3
+tags: []
+user_id: kelly
