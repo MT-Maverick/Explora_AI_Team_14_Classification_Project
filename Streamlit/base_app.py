@@ -25,12 +25,12 @@
 # Streamlit dependencies
 import streamlit as st
 import joblib,os
-
+from pathlib import Path
 # Data dependencies
 import pandas as pd
 
 # Vectorizer
-news_vectorizer = open("vectorisers/CountVectorizer(min_df=0.01, stop_words='english').pkl","rb")
+news_vectorizer = open("vectorizer.pkl","rb")
 test_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
@@ -54,7 +54,8 @@ def main():
 	if selection == "Information":
 		st.info("General Information")
 		# You can read a markdown file from supporting resources folder
-		st.markdown("Some information here")
+		markdown_file = Path('../README.md').read_text()
+		st.markdown(markdown_file, unsafe_allow_html=True)
 
 		
 	# Building out the predication page
@@ -68,7 +69,7 @@ def main():
 			vect_text = test_cv.transform([news_text]).toarray()
 			# Load your .pkl file with the model of your choice + make predictions
 			# Try loading in multiple models to give the user a choice
-			predictor = joblib.load(open(os.path.join("streamlit/Logistic_regression.pkl"),"rb"))
+			predictor = joblib.load(open(os.path.join("best_model.pkl"),"rb"))
 			prediction = predictor.predict(vect_text)
 
 			# When model has successfully run, will print prediction
