@@ -64,18 +64,29 @@ def main():
 		# Creating a text box for user input
 		news_text = st.text_area("Enter Text","Type Here")
 
-		if st.button("Classify"):
-			# Transforming user input with vectorizer
-			vect_text = test_cv.transform([news_text]).toarray()
-			# Load your .pkl file with the model of your choice + make predictions
-			# Try loading in multiple models to give the user a choice
-			predictor = joblib.load(open(os.path.join("best_model.pkl"),"rb"))
-			prediction = predictor.predict(vect_text)
+	# List of available models
+	model_options = {
+		"Logistic Regression": "Logistic_regression.pkl",
+		"Random Forest": "Random_forest.pkl",
+		"SVM": "Support_Vector_Classifier.pkl",
+		"Naive Bayes": "Naive_Bayes.pkl",
+	}
 
-			# When model has successfully run, will print prediction
-			# You can use a dictionary or similar structure to make this output
-			# more human interpretable.
-			st.success("Text Categorized as: {}".format(prediction))
+	# Streamlit UI - Model selection
+	selected_model = st.selectbox("Choose a model:", list(model_options.keys()))
+
+	if st.button("Classify"):
+			# Transforming user input with vectorizer
+		vect_text = test_cv.transform([news_text]).toarray()
+
+		# Load the selected model
+		model_path = model_options[selected_model]
+
+		predictor = joblib.load(open(os.path.join(model_path),"rb"))
+		prediction = predictor.predict(vect_text)
+
+		st.success("Text Categorized as: {}".format(prediction))
+
 
 # Required to let Streamlit instantiate our web app.  
 if __name__ == '__main__':

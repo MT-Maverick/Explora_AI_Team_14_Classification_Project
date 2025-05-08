@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/15afcc752c5c4937835902e23cb99edb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: active
+run_id: 15afcc752c5c4937835902e23cb99edb
+run_name: upbeat-bee-93
+run_uuid: 15afcc752c5c4937835902e23cb99edb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746727099964
+status: 1
+tags: []
+user_id: kelly

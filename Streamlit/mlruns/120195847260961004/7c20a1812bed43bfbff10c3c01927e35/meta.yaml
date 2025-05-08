@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/7c20a1812bed43bfbff10c3c01927e35/artifacts
+end_time: 1746727099897
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: active
+run_id: 7c20a1812bed43bfbff10c3c01927e35
+run_name: delightful-hare-952
+run_uuid: 7c20a1812bed43bfbff10c3c01927e35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746727076592
+status: 3
+tags: []
+user_id: kelly

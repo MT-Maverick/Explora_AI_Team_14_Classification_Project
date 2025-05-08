@@ -30,7 +30,7 @@ education
 technology
 technology
 sports
-technology
+education
 entertainment
 business
 technology
@@ -113,8 +113,8 @@ entertainment
 technology
 sports
 technology
-entertainment
 entertainment
+technology
 education
 business
 technology
@@ -136,7 +136,7 @@ education
 sports
 technology
 education
-sports
+entertainment
 education
 technology
 entertainment
@@ -280,7 +280,7 @@ sports
 education
 entertainment
 technology
-business
+technology
 business
 entertainment
 technology
@@ -314,7 +314,7 @@ business
 education
 business
 business
-entertainment
+technology
 entertainment
 entertainment
 business
@@ -329,7 +329,7 @@ education
 technology
 sports
 business
-sports
+technology
 entertainment
 education
 education
@@ -360,7 +360,7 @@ sports
 education
 education
 education
-business
+technology
 education
 education
 sports
@@ -515,7 +515,7 @@ technology
 business
 entertainment
 technology
-entertainment
+technology
 entertainment
 entertainment
 sports
@@ -610,7 +610,7 @@ education
 education
 sports
 entertainment
-technology
+education
 technology
 technology
 technology
@@ -669,7 +669,7 @@ business
 education
 sports
 education
-entertainment
+technology
 entertainment
 sports
 business
@@ -754,7 +754,7 @@ entertainment
 business
 sports
 entertainment
-education
+business
 entertainment
 sports
 business
@@ -765,7 +765,7 @@ business
 education
 business
 sports
-business
+technology
 entertainment
 business
 education
@@ -848,7 +848,7 @@ sports
 technology
 business
 technology
-sports
+technology
 business
 education
 entertainment
@@ -932,12 +932,12 @@ education
 sports
 technology
 education
-sports
+technology
 entertainment
 technology
 entertainment
 business
-technology
+education
 technology
 sports
 technology
@@ -952,7 +952,7 @@ education
 education
 entertainment
 education
-business
+technology
 business
 sports
 sports
@@ -982,7 +982,7 @@ sports
 entertainment
 technology
 entertainment
-business
+education
 sports
 sports
 education
@@ -1013,7 +1013,7 @@ sports
 technology
 sports
 entertainment
-sports
+technology
 business
 business
 entertainment
@@ -1099,8 +1099,8 @@ sports
 sports
 sports
 entertainment
-technology
 business
+business
 sports
 business
 education
@@ -1257,9 +1257,9 @@ entertainment
 technology
 education
 sports
-business
 technology
 technology
+technology
 entertainment
 business
 business
@@ -1343,9 +1343,9 @@ education
 entertainment
 business
 sports
-education
 technology
 technology
+technology
 business
 technology
 business
@@ -1370,7 +1370,7 @@ technology
 education
 sports
 education
-entertainment
+technology
 business
 sports
 sports
@@ -1451,8 +1451,8 @@ sports
 entertainment
 business
 entertainment
-business
-business
+technology
+technology
 technology
 education
 technology
@@ -1473,7 +1473,7 @@ sports
 technology
 technology
 entertainment
-sports
+business
 sports
 education
 business
@@ -1534,7 +1534,7 @@ education
 business
 technology
 entertainment
-business
+technology
 technology
 technology
 technology
@@ -1701,7 +1701,7 @@ sports
 education
 entertainment
 technology
-business
+technology
 education
 entertainment
 entertainment
@@ -1743,7 +1743,7 @@ education
 education
 entertainment
 education
-technology
+sports
 business
 education
 business
@@ -1765,7 +1765,7 @@ business
 business
 business
 technology
-business
+technology
 education
 education
 sports
@@ -1923,7 +1923,7 @@ education
 sports
 technology
 sports
-sports
+entertainment
 entertainment
 entertainment
 sports

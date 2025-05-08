@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/2d8224d85afd483b9c52ee467a1359f4/artifacts
+end_time: 1746726513037
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: active
+run_id: 2d8224d85afd483b9c52ee467a1359f4
+run_name: Support Vector Classifier
+run_uuid: 2d8224d85afd483b9c52ee467a1359f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746726502779
+status: 3
+tags: []
+user_id: kelly
