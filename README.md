@@ -1,4 +1,5 @@
-## 2407PTDS_Classification_Project
+## Explora_AI_Team_14_Classification_Project
+
 
 # Analysing News Articles Dataset
 
