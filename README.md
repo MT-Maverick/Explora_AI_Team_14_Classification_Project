@@ -56,16 +56,34 @@ It's highly recommended to use a virtual environment for your projects, there ar
 conda create --name <env>
 ```
 
+or
+
+```bash
+# create the python environment
+python -m venv  <name>
+```
+
 ### This is how you activate the virtual environment in a terminal and install the project dependencies
 
 ```bash
-# activate the virtual environment
+# activate the virtual environment for conda
 conda activate <env>
 # install the pip package
 conda install pip
 # install the requirements for this project
 pip install -r requirements.txt
 ```
+or 
+
+```bash
+# activate the virtual environment for python
+source bin/activate
+
+# install the requirements for this project
+pip install -r requirements.txt
+```
+
+
 ## 5. MLFlow<a class="anchor" id="mlflow"></a>
 
 MLOps, which stands for Machine Learning Operations, is a practice focused on managing and streamlining the lifecycle of machine learning models. The modern MLOps tool, MLflow is designed to facilitate collaboration on data projects, enabling teams to track experiments, manage models, and streamline deployment processes. For experimentation, testing, and reproducibility of the machine learning models in this project, you will use MLflow. MLflow will help track hyperparameter tuning by logging and comparing different model configurations. This allows you to easily identify and select the best-performing model based on the logged metrics.
@@ -89,16 +107,13 @@ In its own words:
 
 For this repository, we are only concerned with a single file:
 
-| File Name              | Description                       |
-| :--------------------- | :--------------------             |
-| `base_app.py`          | Streamlit application definition. |
+| File Name              | Description                           |
+| :--------------------- | :--------------------                 |
+| `base_app.py`          | Streamlit application definition.     |
+| `notebook.py`          | Notebook used to train pickled models.|
 
 
 #### 6.1 Running the Streamlit web app on your local machine
-
-As a first step to becoming familiar with our web app's functioning, we recommend setting up a running instance on your own local machine. To do this, follow the steps below by running the given commands within a Git bash (Windows), or terminal (Mac/Linux):
-
-- Ensure that you have the prerequisite Python libraries installed on your local machine:
 
  ```bash
  pip install -U streamlit numpy pandas scikit-learn
@@ -107,7 +122,7 @@ As a first step to becoming familiar with our web app's functioning, we recommen
 - Navigate to the base of your repo where your base_app.py is stored, and start the Streamlit app.
 
  ```bash
- cd 2401PTDS_Classification_Project/Streamlit/
+ cd Explora_AI_Team_14_Classification_Project/Streamlit/
  streamlit run base_app.py
  ```
 
