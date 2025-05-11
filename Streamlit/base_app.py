@@ -30,7 +30,7 @@ from pathlib import Path
 import pandas as pd
 
 # Vectorizer
-news_vectorizer = open("vectorizer.pkl","rb")
+news_vectorizer = open("vectorizer/vectorizer.pkl","rb")
 test_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
@@ -66,10 +66,10 @@ def main():
 
 	# List of available models
 	model_options = {
-		"Logistic Regression": "Logistic_regression.pkl",
-		"Random Forest": "Random_forest.pkl",
-		"SVM": "Support_Vector_Classifier.pkl",
-		"Naive Bayes": "Naive_Bayes.pkl",
+		"Logistic Regression": "models/Logistic_Regression.pkl",
+		"Random Forest": "models/Random_Forest.pkl",
+		"Support Vector Classifier": "models/Support_Vector_Classifier.pkl",
+		"Naive Bayes": "models/Naive_Bayes.pkl",
 	}
 
 	# Streamlit UI - Model selection
@@ -82,7 +82,7 @@ def main():
 		# Load the selected model
 		model_path = model_options[selected_model]
 
-		predictor = joblib.load(open(os.path.join(model_path),"rb"))
+		predictor = joblib.load(open((model_path),"rb"))
 		prediction = predictor.predict(vect_text)
 
 		st.success("Text Categorized as: {}".format(prediction))

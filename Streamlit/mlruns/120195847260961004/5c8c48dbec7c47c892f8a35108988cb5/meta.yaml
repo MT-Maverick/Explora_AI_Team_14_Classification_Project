@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/5c8c48dbec7c47c892f8a35108988cb5/artifacts
+end_time: 1746958935612
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: active
+run_id: 5c8c48dbec7c47c892f8a35108988cb5
+run_name: Random Forest
+run_uuid: 5c8c48dbec7c47c892f8a35108988cb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746958933252
+status: 3
+tags: []
+user_id: codespace

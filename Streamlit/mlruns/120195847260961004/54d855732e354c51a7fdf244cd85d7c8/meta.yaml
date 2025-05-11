@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/kelly/Downloads/mlruns/120195847260961004/54d855732e354c51a7fdf244cd85d7c8/artifacts
+deleted_time: 1746959339191
+end_time: 1746959183175
+entry_point_name: ''
+experiment_id: '120195847260961004'
+lifecycle_stage: deleted
+run_id: 54d855732e354c51a7fdf244cd85d7c8
+run_name: chill-doe-617
+run_uuid: 54d855732e354c51a7fdf244cd85d7c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746959177371
+status: 4
+tags: []
+user_id: codespace
